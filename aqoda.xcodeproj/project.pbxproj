@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		938823AB22BD475E0084FB18 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938823AA22BD475E0084FB18 /* main.swift */; };
+		938823B522BD4A2B0084FB18 /* RawCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938823B422BD4A2B0084FB18 /* RawCommand.swift */; };
+		938823BD22BD51F50084FB18 /* inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938823BC22BD51F50084FB18 /* inputs.swift */; };
+		938823BF22BD67FD0084FB18 /* HotelApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938823BE22BD67FD0084FB18 /* HotelApplication.swift */; };
+		938823C122BD6A3A0084FB18 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938823C022BD6A3A0084FB18 /* Service.swift */; };
+		938823C322BD6A7C0084FB18 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938823C222BD6A7C0084FB18 /* Room.swift */; };
+		938823C522BD6AA30084FB18 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938823C422BD6AA30084FB18 /* Customer.swift */; };
+		938823C722BD6ADD0084FB18 /* BookingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938823C622BD6ADD0084FB18 /* BookingHistory.swift */; };
+		938823C922BD6AEB0084FB18 /* Keycard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938823C822BD6AEB0084FB18 /* Keycard.swift */; };
+		938823CB22BD6B0A0084FB18 /* KeycardIssueHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938823CA22BD6B0A0084FB18 /* KeycardIssueHistory.swift */; };
+		938823CD22BD6BB10084FB18 /* CustomerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938823CC22BD6BB10084FB18 /* CustomerInfo.swift */; };
+		938823CF22BD6BE20084FB18 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938823CE22BD6BE20084FB18 /* Hotel.swift */; };
+		938823D122BD70E80084FB18 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938823D022BD70E80084FB18 /* Error.swift */; };
+		9398ED8822C1105600CBCEF6 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9398ED8722C1105600CBCEF6 /* Command.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +38,20 @@
 /* Begin PBXFileReference section */
 		938823A722BD475E0084FB18 /* aqoda */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = aqoda; sourceTree = BUILT_PRODUCTS_DIR; };
 		938823AA22BD475E0084FB18 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		938823B422BD4A2B0084FB18 /* RawCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawCommand.swift; sourceTree = "<group>"; };
+		938823B822BD4FA60084FB18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = en.lproj/output.txt; sourceTree = "<group>"; };
+		938823BC22BD51F50084FB18 /* inputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputs.swift; sourceTree = "<group>"; };
+		938823BE22BD67FD0084FB18 /* HotelApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HotelApplication.swift; path = aqoda/HotelApplication.swift; sourceTree = SOURCE_ROOT; };
+		938823C022BD6A3A0084FB18 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		938823C222BD6A7C0084FB18 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		938823C422BD6AA30084FB18 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		938823C622BD6ADD0084FB18 /* BookingHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingHistory.swift; sourceTree = "<group>"; };
+		938823C822BD6AEB0084FB18 /* Keycard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keycard.swift; sourceTree = "<group>"; };
+		938823CA22BD6B0A0084FB18 /* KeycardIssueHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeycardIssueHistory.swift; sourceTree = "<group>"; };
+		938823CC22BD6BB10084FB18 /* CustomerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInfo.swift; sourceTree = "<group>"; };
+		938823CE22BD6BE20084FB18 /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		938823D022BD70E80084FB18 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		9398ED8722C1105600CBCEF6 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +84,31 @@
 		938823A922BD475E0084FB18 /* aqoda */ = {
 			isa = PBXGroup;
 			children = (
+				938823B322BD4A0B0084FB18 /* models */,
+				938823B922BD4FA60084FB18 /* output.txt */,
+				938823BE22BD67FD0084FB18 /* HotelApplication.swift */,
 				938823AA22BD475E0084FB18 /* main.swift */,
+				938823BC22BD51F50084FB18 /* inputs.swift */,
+				938823C022BD6A3A0084FB18 /* Service.swift */,
+				938823D022BD70E80084FB18 /* Error.swift */,
 			);
 			path = aqoda;
+			sourceTree = "<group>";
+		};
+		938823B322BD4A0B0084FB18 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				9398ED8722C1105600CBCEF6 /* Command.swift */,
+				938823B422BD4A2B0084FB18 /* RawCommand.swift */,
+				938823C222BD6A7C0084FB18 /* Room.swift */,
+				938823C422BD6AA30084FB18 /* Customer.swift */,
+				938823CE22BD6BE20084FB18 /* Hotel.swift */,
+				938823C622BD6ADD0084FB18 /* BookingHistory.swift */,
+				938823C822BD6AEB0084FB18 /* Keycard.swift */,
+				938823CA22BD6B0A0084FB18 /* KeycardIssueHistory.swift */,
+				938823CC22BD6BB10084FB18 /* CustomerInfo.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,11 +168,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938823BD22BD51F50084FB18 /* inputs.swift in Sources */,
+				938823C522BD6AA30084FB18 /* Customer.swift in Sources */,
+				938823CD22BD6BB10084FB18 /* CustomerInfo.swift in Sources */,
+				938823D122BD70E80084FB18 /* Error.swift in Sources */,
+				9398ED8822C1105600CBCEF6 /* Command.swift in Sources */,
+				938823C722BD6ADD0084FB18 /* BookingHistory.swift in Sources */,
+				938823BF22BD67FD0084FB18 /* HotelApplication.swift in Sources */,
+				938823C922BD6AEB0084FB18 /* Keycard.swift in Sources */,
+				938823CF22BD6BE20084FB18 /* Hotel.swift in Sources */,
+				938823C322BD6A7C0084FB18 /* Room.swift in Sources */,
+				938823C122BD6A3A0084FB18 /* Service.swift in Sources */,
 				938823AB22BD475E0084FB18 /* main.swift in Sources */,
+				938823CB22BD6B0A0084FB18 /* KeycardIssueHistory.swift in Sources */,
+				938823B522BD4A2B0084FB18 /* RawCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		938823B922BD4FA60084FB18 /* output.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				938823B822BD4FA60084FB18 /* en */,
+			);
+			name = output.txt;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		938823AC22BD475E0084FB18 /* Debug */ = {
